@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Edu+VIC+WA+NT+Beginner:wght@400;600&family=Josefin+Slab:wght@400;700&family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <!-- font aws -->
+    <script
+    src="https://kit.fontawesome.com/936452f2aa.js"
+    crossorigin="anonymous"
+  ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>blog</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="navbar-brand">
+        <a href="">
+          <img class="img-logo" src="img/Chanel-PNG-Image-HD.png" alt="brand" />
+        </a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarToggler"
+      >
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Disabled</a>
+          </li>
+        </ul>
+        <div>
+          <input class="search-input " type="text" placeholder="Search...">
+        <button class="btn btn-outline-success">Search</button>
+          
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="row justify-content-center">
+      <div class="col-md-6 main-content">
+        <h1>Visit Norway & <span class="nl"> Northern Light</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+          repudiandae sapiente quidem facilis cupiditate sequi nam recusandae
+          accusantium nostrum, incidunt amet minima magni et id rem molestiae
+          itaque magnam repellat?
+        </p>
+        <button class="content-btn">Plans</button>
+      </div>
+       <div class="col-md-6 main-form">
+        <div>
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control email-form"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control pass-form"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+            <button type="submit" class="btn btn-outline-success sub-btn">Login</button>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <section class="slide-section">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <img class="slide-img" src="img/slide1.jpg" alt="" />
+           <div class="carousel-caption slide-caption">
+            <h2>Oslo</h2>
+            <p>Norway</p>
+            <a class="slide-link" href="#">See More</a>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slide-img" src="img/slide2.jpg" alt="">
+            <div class="carousel-caption slide-caption">
+              <h2>Bergen</h2>
+              <p>Norway</p>
+              <a class="slide-link" href="#">See More</a>
+            </div>
+          </div>
+          <div class="carousel-item slide-3">
+            <img class="slide-img" src="img/background.jpg" alt="Third slide">
+             <div class="carousel-caption slide-caption">
+            <h2>Stavanger</h2>
+            <p>Norways</p>
+            <a class="slide-link" href="#">See More</a>
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </section>
+    <section class="card-section">
+      <div class="row justify-content-center">
+        <div class="col-lg-4  col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Eiffel Tower</h5>
+              <img class="card-img-top" src="img/slide4.jpg" alt="Card image cap">
+              <p class="card-text">Discover the best day trips, as well as tips on cultural highlights</p>
+              <a href="#" class="card-link">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Venice</h5>
+              <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
+              <p class="card-text">Discover the best day trips, as well as tips on cultural highlights</p>
+              <a href="#" class="card-link">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Zürich</h5>
+              <img class="card-img-top"src="img/card3.jpg" alt="">
+              <p class="card-text">Discover the best day trips, as well as tips on cultural highlights</p>
+              <a href="#" class="card-link">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </section>
+    <footer class="footers">
+      <div class="links">
+        <a class="footer-a" href="#">&copy; turmterms and conditions </a>
+        <div  class="contact-link ">
+          <span> follow Us on</span>
+          <a href="#">instagram</a>
+        </div>
+        <div class="contact-link">
+          <a href="#">facebook</a>
+        </div>
+        <div class="contact-link">
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </footer>
+   
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    > </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
